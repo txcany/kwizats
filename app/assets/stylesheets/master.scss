@@ -1,0 +1,42 @@
+@import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Overlock+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body {
+  background: image_url('circles-and-roundabouts.png');
+  font-family: 'Dosis', sans-serif;
+  font-size:45;
+}
+
+.navbar {
+  background: image_url('dark_fish_skin.png');
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FF007E;
+  font-family: 'Overlock SC', cursive;
+  font-size:60px;
+}
+
+h1 {
+  padding-left: 100px;
+}
+
+h2 {
+  padding-left: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+
+
