@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'places#index'
-  root 'books#index'
+ root 'grimoires#index'
+  resources :grimoires
 end
